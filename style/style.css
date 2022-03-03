@@ -137,9 +137,9 @@ button:hover {
 }
 
 .call-action {
-  margin: 60px 200px;
+  margin: 60px 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   background: #3882f6;
   padding: 30px 40px;
@@ -149,6 +149,7 @@ button:hover {
 
 .call-action button {
   border: white 1px solid;
+  margin: 10px 0px;
 }
 footer {
   text-align: center;
@@ -159,6 +160,9 @@ footer {
   word-spacing: 3px;
 }
 
+.call-info p {
+  width: 80%;
+}
 @media (max-width: 768px) {
   .header-section {
     display: block;
@@ -203,6 +207,7 @@ footer {
   }
   .call-action p {
     margin: 20px 0px;
+    width: 100%;
   }
   .call-action button {
     margin: auto;
