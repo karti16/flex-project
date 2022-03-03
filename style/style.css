@@ -98,6 +98,7 @@ button:hover {
   margin-bottom: 100px;
 }
 .information h2 {
+  text-align: center;
   font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937;
@@ -106,11 +107,12 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: space-around;
 }
 .container .info {
-  max-height: 150px;
+  max-height: 28vh;
   max-width: 150px;
-  margin: 40px;
+  margin: 60px;
 }
 .container .info img {
   max-height: 100%;
