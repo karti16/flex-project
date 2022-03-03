@@ -220,9 +220,4 @@ footer {
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-  .header-section {
-    display: block;
-    background: red;
-    padding: 0 20px;
-  }
 }
