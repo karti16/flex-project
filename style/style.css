@@ -49,12 +49,46 @@ a {
   gap: 150px;
 }
 
+a:hover {
+  color: #575858;
+}
+.logo:hover {
+  color: #575858;
+}
+
 @media (max-width: 768px) {
   .header-section {
-    display: flex;
-    flex-flow: column;
+    display: block;
+
     padding: 0 100px;
-    justify-content: space-between;
+  }
+  .header-text {
+    display: block;
+    text-align: center;
+  }
+  .header-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header-text button {
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .header-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  ul {
+    font-size: 100%;
   }
 }
 
