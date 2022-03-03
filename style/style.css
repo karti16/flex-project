@@ -56,42 +56,6 @@ a:hover {
   color: #575858;
 }
 
-@media (max-width: 768px) {
-  .header-section {
-    display: block;
-
-    padding: 0 100px;
-  }
-  .header-text {
-    display: block;
-    text-align: center;
-  }
-  .header-text p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .header-text button {
-    margin: 0px auto;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  .header-section img {
-    width: 100%;
-    height: auto;
-  }
-
-  nav {
-    display: block;
-    text-align: center;
-  }
-  .logo {
-    margin-bottom: 20px;
-  }
-  ul {
-    font-size: 100%;
-  }
-}
-
 .header-text {
   display: flex;
   flex-flow: column wrap;
@@ -193,4 +157,56 @@ footer {
   background: #1f2937;
   color: white;
   word-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  .header-section {
+    display: block;
+
+    padding: 0 100px;
+  }
+  .header-text {
+    display: block;
+    text-align: center;
+  }
+  .header-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header-text button {
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .header-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  ul {
+    font-size: 100%;
+  }
+
+  .call-action {
+    display: block;
+    text-align: center;
+    margin: 0px 0px;
+    border-radius: 0px;
+  }
+  .call-action p {
+    margin: 20px 0px;
+  }
+  .call-action button {
+    margin: auto;
+  }
+  .quotes {
+    font-size: 150%;
+  }
 }
