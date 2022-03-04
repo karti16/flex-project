@@ -121,7 +121,6 @@ button:hover {
 }
 
 .quotes {
-  text-align: ;
   background: #e5e7eb;
   font-size: 36px;
   font-style: italic;
@@ -219,5 +218,63 @@ footer {
   }
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+@media (max-width: 481px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .header-text h1 {
+    font-size: 10vw;
+  }
+  .header-section {
+    display: block;
+
+    padding: 0 0px;
+  }
+  nav {
+    padding: 0 10%;
+    padding-bottom: 50px;
+  }
+  .header-text p {
+    font-size: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header-text button {
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px auto;
+    font-size: 4vw;
+  }
+  .information {
+    padding: 0px 5%;
+    margin-bottom: 20px;
+  }
+  .information .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .info {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 130%;
+  }
+  .container .info img {
+    text-align: center;
+    max-height: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  .info p {
+    margin: 0 7%;
+  }
+  .quotes {
+    padding: 50px 10%;
+  }
 }
